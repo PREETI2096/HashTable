@@ -7,5 +7,6 @@ public class HashTest {
 
 		HashTable hash = new HashTable();
 		hash.countWords(str);
+		hash.remove("avoidable");
 	}
 }
